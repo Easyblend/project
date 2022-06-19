@@ -1,0 +1,34 @@
+body {
+  color: black;
+  background: linear-gradient(
+    to bottom,
+    rgba(2, 8, 0, 0.9),
+    rgb(19, 19, 19),
+    rgba(0, 0, 0, 1) 70%
+  );
+}
+
+.main-head {
+  background-image: url("https://wallpaperaccess.com/full/273315.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 100%;
+  height: 500px;
+}
+
+.section-bg {
+  background-image: url("https://cdn.wallpapersafari.com/17/21/f2MoGp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 100%;
+  height: 100%;
+}
+.card {
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  transform: translateY(-40px);
+  transition: all 0.5s ease;
+  opacity: 0.8;
+}
