@@ -1,257 +1,261 @@
-*{
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-main{
-    background: linear-gradient(to  top, rgba(256, 1, 1, 1), rgba(64, 1, 1, 1));
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    flex-direction: column;
-    color: white;
-  
+main {
+  background: linear-gradient(to top, rgba(256, 1, 1, 1), rgba(64, 1, 1, 1));
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  color: white;
 }
 
-.container{
-    display: flex;
-    align-items: center;
-    height: 80%;
-    width: 80%;
-    background: url('bj1.jpg');
-    backdrop-filter: blur(4px);
-    border-radius: 50px;
-    box-shadow: 1px 1px 7px 6px rgba(0, 0, 0, 0.8);
-    flex-direction: column;
-    padding: 20px 0px;
-    color: black;
+.container {
+  display: flex;
+  align-items: center;
+  height: 80%;
+  width: 80%;
+  background: url("bj1.jpg");
+  backdrop-filter: blur(4px);
+  border-radius: 50px;
+  box-shadow: 1px 1px 7px 6px rgba(0, 0, 0, 0.8);
+  flex-direction: column;
+  padding: 20px 0px;
+  color: black;
 }
 
-.dealerBox{
-    height: 400px;
-    width: 350px;
-    text-align: center;
+.dealerBox {
+  height: 400px;
+  width: 350px;
+  text-align: center;
 }
 
-.playerBox{
-   
-    height: 400px;
-    width: 800px;
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+.playerBox {
+  height: 400px;
+  width: 800px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
 }
 
-.infoSection{
-    display: flex;
-    width: 100%;
-    padding: 0%;
-    margin: 0px;
+.infoSection {
+  display: flex;
+  width: 100%;
+  padding: 0%;
+  margin: 0px;
 }
 
-.game-title{
-    flex: 3;
-    text-align: end;
-    margin-top: 36px;
-    font-size: 40px;
+.game-title {
+  flex: 3;
+  text-align: end;
+  margin-top: 36px;
+  font-size: 40px;
 }
 
-.balance{
-    flex: 2;
-    margin: 0px 20px;
-    margin-top: 40px;
-    text-align: center;
-    font-size: 40px;
+.balance {
+  flex: 2;
+  margin: 0px 20px;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 40px;
 }
 
-
-.card1{
-    border-radius: 10px;
-    background-image: url('back.jpg');
-    background-position: center;
-    height: 90%;
-    width: 30%;
-    margin-right: 30px;
-    box-shadow: 1px 1px 7px 6px rgba(0, 0, 0, 0.8);
-    transition: all 1s ease;
+.card1 {
+  border-radius: 10px;
+  background-image: url("back.jpg");
+  background-position: center;
+  height: 90%;
+  width: 30%;
+  margin-right: 30px;
+  box-shadow: 1px 1px 7px 6px rgba(0, 0, 0, 0.8);
+  transition: all 1s ease;
 }
 
-.card1:hover{
-    transform: translateY(-30px);
-    opacity: 0.5;
-    box-shadow: 1px 8px 7px 6px rgba(0, 0, 0, 0.8);
-    transition: all 0.2s ease;
-    cursor: pointer;
-
+.card1:hover {
+  transform: translateY(-30px);
+  opacity: 0.5;
+  box-shadow: 1px 8px 7px 6px rgba(0, 0, 0, 0.8);
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 
-.cardA{
-    border-radius: 10px;
-    background-color: rgb(255, 0, 0);
-    background-position: center;
-    height: 90%;
-    width: 30%;
-    margin-right: 30px;
-    box-shadow: 1px 1px 7px 6px rgba(0, 0, 0, 0.8);
+.cardA {
+  border-radius: 10px;
+  background-color: rgb(255, 0, 0);
+  background-position: center;
+  height: 90%;
+  width: 30%;
+  margin-right: 30px;
+  box-shadow: 1px 1px 7px 6px rgba(0, 0, 0, 0.8);
 }
 
-
-.cardB{
-    border-radius: 10px;
-    background-color: rgb(0, 0, 0);
-    background-position: center;
-    height: 90%;
-    width: 30%;
-    margin-right: 30px;
-    box-shadow: 1px 1px 10px 4px rgba(231, 82, 82, 0.8);
+.cardB {
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  background-position: center;
+  height: 90%;
+  width: 30%;
+  margin-right: 30px;
+  box-shadow: 1px 1px 10px 4px rgba(231, 82, 82, 0.8);
 }
 
-.dealerCardB{
-    background: black;
-    background-position: center;
-    margin: 0px 50px;
-    height:90%;
-    border-radius: 10px;
-    box-shadow: 1px 1px 7px 6px rgba(255, 77, 77, 0.8);
+.dealerCardB {
+  background: black;
+  background-position: center;
+  margin: 0px 50px;
+  height: 90%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 7px 6px rgba(255, 77, 77, 0.8);
 }
 
-.dealerCardA{
-    background: red;
-    background-position: center;
-    margin: 0px 50px;
-    height:90%;
-    border-radius: 10px;
-    box-shadow: 1px 1px 7px 6px rgba(0, 0, 0, 0.8);
+.dealerCardA {
+  background: red;
+  background-position: center;
+  margin: 0px 50px;
+  height: 90%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 7px 6px rgba(0, 0, 0, 0.8);
 }
 
-.card2{
-    border-radius: 10px;
-    background-image: url('back.jpg');
-    background-position: center;
-    height: 90%;
-    width: 30%;
-    margin-right: 30px;
-    box-shadow: 1px 1px 7px 6px rgba(0, 0, 0, 0.8);
-    transition: all 1s ease;
-    
+.card2 {
+  border-radius: 10px;
+  background-image: url("back.jpg");
+  background-position: center;
+  height: 90%;
+  width: 30%;
+  margin-right: 30px;
+  box-shadow: 1px 1px 7px 6px rgba(0, 0, 0, 0.8);
+  transition: all 1s ease;
 }
 
-.card2:hover{
-    transform: translateY(-30px);
-    opacity: 0.5;
-    box-shadow: 1px 8px 7px 6px rgba(0, 0, 0, 0.8);
-    transition: all 0.2s ease;
-    cursor: pointer ;
-
+.card2:hover {
+  transform: translateY(-30px);
+  opacity: 0.5;
+  box-shadow: 1px 8px 7px 6px rgba(0, 0, 0, 0.8);
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 
-.win{
-    font-size: 100px;
-    position: absolute;
-    z-index: 324;
-    color: rgb(255, 191, 16);
-    
+.win {
+  font-size: 100px;
+  position: absolute;
+  z-index: 324;
+  color: rgb(255, 191, 16);
 }
 
-.loose{
-    font-size: 100px;
-    position: absolute;
-    z-index: 324;
-    color: rgb(255, 0, 0);
+.loose {
+  font-size: 100px;
+  position: absolute;
+  z-index: 324;
+  color: rgb(255, 0, 0);
 }
 
-.cardSelect{
-    font-size: 40px;
-    color: rgb(0, 0, 0);
-    
+.cardSelect {
+  font-size: 40px;
+  color: rgb(0, 0, 0);
 }
 
-.dealerCard{
-    background-image: url('back.jpg');
-    background-position: center;
-    margin: 0px 50px;
-    height:90%;
-    border-radius: 10px;
-    box-shadow: 1px 1px 7px 6px rgba(0, 0, 0, 0.8);
+.dealerCard {
+  background-image: url("back.jpg");
+  background-position: center;
+  margin: 0px 50px;
+  height: 90%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 7px 6px rgba(0, 0, 0, 0.8);
 }
 
-.startGame{
-    margin-top: 35px;
-    width: 300px;
-    height: 50px;
-    border-radius: 10px;
-    font-size: 30px;
-    font-weight: bolder;
-    border: none;
-    opacity: 1;
-    color: rgb(255, 255, 255);
-    box-shadow: 1px 1px 4px 3px rgba(28, 51, 126, 0.5);
-    background: linear-gradient(to right, rgba(63, 247, 7, 0.9), rgba(0, 255, 255, 0.8));
-    transition: 0.5s ease all;
+.startGame {
+  margin-top: 35px;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+  border: none;
+  opacity: 1;
+  color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 4px 3px rgba(28, 51, 126, 0.5);
+  background: linear-gradient(
+    to right,
+    rgba(63, 247, 7, 0.9),
+    rgba(0, 255, 255, 0.8)
+  );
+  transition: 0.5s ease all;
 }
 
-.startGame:hover{
-    transform: translateY(-6px);
-    opacity: 0.8;
-    transition: 0.5s ease all;
-    width: 320px;
-    cursor: pointer;
+.startGame:hover {
+  transform: translateY(-6px);
+  opacity: 0.8;
+  transition: 0.5s ease all;
+  width: 320px;
+  cursor: pointer;
 }
 
 @media screen and (max-height: 1000px) and (max-width: 1100px) {
-    
-    main{
-        font-size: 10px;
-    }
+  main {
+    font-size: 10px;
+  }
 
-    .container{
-       font-size: 10px;
-       height: 80%;
-    }
+  .container {
+    font-size: 10px;
+    height: 80%;
+  }
 
-    .card1, .card2, .cardB,.cardA{
-        width: 15%;
-        margin-left: 1%;
-        margin-right: 1%;
-        height: 100%;
-    }
+  .card1,
+  .card2,
+  .cardB,
+  .cardA {
+    width: 15%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 100%;
+  }
 
-    .dealerCard, .dealerCardA, .dealerCardB{
-        height: 100%;
-        margin: auto;
-        width: 40%;
-    }
+  .dealerCard,
+  .dealerCardA,
+  .dealerCardB {
+    height: 100%;
+    margin: auto;
+    width: 40%;
+  }
 
-    .win, .loose{
-        font-size: 50px;
-    }
+  .win,
+  .loose {
+    font-size: 50px;
+  }
 
-    .game-title, .balance{
-        font-size: 20px;
-        margin-top: 50px;
-        text-align: center;
-    }
+  .game-title,
+  .balance {
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+  }
 
-   
-
-    .startGame{
-        margin-bottom: 50px;
-        width: 200px;
-        height: 40px;
-     
-     }
-
-
+  .startGame {
+    margin-bottom: 50px;
+    width: 200px;
+    height: 40px;
+  }
 }
 
+@media (max-width: 414px) and (max-height: 960px) {
+  .card1,
+  .card2 {
+    height: 150px;
+  }
 
-
-
+  .dealerCard,
+  .dealerCardA,
+  .dealerCardB {
+    height: 150px;
+  }
+}
