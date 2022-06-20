@@ -249,7 +249,9 @@ main {
 
 @media (max-width: 414px) and (max-height: 960px) {
   .card1,
-  .card2 {
+  .card2,
+  .cardA,
+  .cardB {
     height: 150px;
   }
 
