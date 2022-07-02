@@ -47,6 +47,18 @@ body {
 .input-bar {
   outline: none;
   border: none;
+  background-color: rgb(209, 220, 235);
+  width: 450px;
+  height: 50px;
+  border-radius: 15px;
+  padding: 0px 20px;
+  color: rgb(0, 0, 54);
+  font-size: 1.2em;
+}
+
+::placeholder {
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
 }
 
 .search {
@@ -56,6 +68,9 @@ body {
   color: white;
   padding: 20px;
   transition: all 0.3s ease;
+  height: 50px;
+  width: 90px;
+  border-radius: 15px;
 }
 
 .search:hover {
@@ -105,9 +120,20 @@ body {
     margin: 0px;
     height: 100vh;
   }
+
+  .input-bar {
+    width: 220px;
+    height: auto;
+  }
+
   .searchbtn {
     margin-top: 0px;
     padding: 0px;
+  }
+
+  .search {
+    height: 40px;
+    width: 70px;
   }
 }
 
@@ -115,6 +141,9 @@ body {
   .lane-2 h1,
   h2 {
     font-size: 1.4em;
+  }
+  .input-bar {
+    width: auto;
   }
 }
 
