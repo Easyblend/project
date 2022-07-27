@@ -57,7 +57,7 @@ function getDate() {
   ];
   var now = new Date();
   var year = now.getFullYear();
-  var month = months[now.getMonth() + 1];
+  var month = months[now.getMonth()];
   var day = now.getDate();
 
   if (month.toString().length == 1) {

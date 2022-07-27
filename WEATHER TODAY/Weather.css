@@ -45,14 +45,14 @@ body {
 }
 
 .input-bar {
-  outline: none;
   border: none;
-  background-color: rgb(209, 220, 235);
+  outline: none;
+  background-color: rgb(255, 255, 255);
   width: 450px;
   height: 50px;
   border-radius: 15px;
   padding: 0px 20px;
-  color: rgb(0, 0, 54);
+  color: rgb(0, 0, 0);
   font-size: 1.2em;
 }
 
@@ -92,6 +92,9 @@ body {
 
 .humid-row {
   border-bottom: 1px solid wheat;
+}
+h1 {
+  font-size: 1.8rem;
 }
 
 @media (max-width: 576px) {
@@ -140,7 +143,11 @@ body {
 @media (max-width: 1025px) and (min-height: 599px) {
   .lane-2 h1,
   h2 {
-    font-size: 1.4em;
+    font-size: 1.3em;
+  }
+
+  h4 {
+    font-size: 1.1rem;
   }
   .input-bar {
     width: auto;
@@ -151,5 +158,8 @@ body {
   .lane-2 h1,
   h2 {
     font-size: 15px;
+  }
+  h4 {
+    font-size: 1rem;
   }
 }
